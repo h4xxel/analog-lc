@@ -1,200 +1,223 @@
-# EESchema Netlist Version 1.1 created  ons 16 okt 2013 16:17:50
+# EESchema Netlist Version 1.1 created  Wed 16 Oct 2013 05:09:05 PM CEST
 (
- ( /525E8F02 $noname  P7 CONN_4 {Lib=CONN_4}
-  (    1 N-000020 )
-  (    2 N-000004 )
-  (    3 ? )
-  (    4 N-000012 )
+ ( /525E8296 C1 C1 C
+  ( 1 N-000017 )
+  ( 2 GND )
  )
- ( /525E8EFD $noname  P1 CONN_4 {Lib=CONN_4}
-  (    1 N-000027 )
-  (    2 N-000025 )
-  (    3 N-000024 )
-  (    4 N-000009 )
+ ( /525E859E C1 C2 C
+  ( 1 N-000016 )
+  ( 2 GND )
  )
- ( /525E8B89 $noname  Q1 NPN {Lib=NPN}
-  (    1 GND )
-  (    2 N-000008 )
-  (    3 N-000029 )
+ ( /525E85A7 C1 C3 C
+  ( 1 N-000022 )
+  ( 2 GND )
  )
- ( /525E897C $noname  C7 CP1 {Lib=CP1}
-  (    1 VCC )
-  (    2 GND )
+ ( /525E85BE C1 C4 C
+  ( 1 N-000019 )
+  ( 2 GND )
  )
- ( /525E894F $noname  P2 CONN_2 {Lib=CONN_2}
-  (    1 GND )
-  (    2 VCC )
+ ( /525E85CE C1 C5 C
+  ( 1 N-000003 )
+  ( 2 GND )
  )
- ( /525E88DA $noname  R9 R {Lib=R}
-  (    1 N-000002 )
-  (    2 VCC )
+ ( /525E85DA C1 C6 C
+  ( 1 N-000006 )
+  ( 2 GND )
  )
- ( /525E8875 $noname  K1 CONN_3 {Lib=CONN_3}
-  (    1 N-000029 )
-  (    2 N-000014 )
-  (    3 N-000013 )
+ ( /525E897C C1V5 C7 CP1
+  ( 1 VCC )
+  ( 2 GND )
  )
- ( /525E8827 $noname  P4 CONN_2 {Lib=CONN_2}
-  (    1 N-000002 )
-  (    2 N-000002 )
+ ( /525E87B8 C2 C8 C
+  ( 1 N-000012 )
+  ( 2 N-000008 )
  )
- ( /525E87B8 $noname  C8 C {Lib=C}
-  (    1 N-000012 )
-  (    2 N-000008 )
+ ( /525E877F C1V5 C9 CP1
+  ( 1 N-000011 )
+  ( 2 N-000010 )
  )
- ( /525E8791 $noname  P5 CONN_2 {Lib=CONN_2}
-  (    1 N-000011 )
-  (    2 N-000010 )
+ ( /525E874E D3 D1 DIODE
+  ( 1 N-000013 )
+  ( 2 N-000010 )
  )
- ( /525E877F $noname  C9 CP1 {Lib=CP1}
-  (    1 N-000011 )
-  (    2 N-000010 )
+ ( /525E8744 D3 D2 DIODE
+  ( 1 N-000011 )
+  ( 2 N-000002 )
  )
- ( /525E8758 $noname  RV8 POT {Lib=POT}
-  (    1 N-000011 )
-  (    2 N-000011 )
-  (    3 N-000010 )
+ ( /525E8875 PIN_ARRAY_3X1 K1 CONN_3
+  ( 1 N-000029 )
+  ( 2 N-000014 )
+  ( 3 N-000013 )
  )
- ( /525E874E $noname  D1 DIODE {Lib=DIODE}
-  (    1 N-000013 )
-  (    2 N-000010 )
+ ( /525E8EFD PIN_ARRAY_4x1 P1 CONN_4
+  ( 1 N-000027 )
+  ( 2 N-000025 )
+  ( 3 N-000024 )
+  ( 4 N-000009 )
  )
- ( /525E8744 $noname  D2 DIODE {Lib=DIODE}
-  (    1 N-000011 )
-  (    2 N-000002 )
+ ( /525E894F PIN_ARRAY_2X1 P2 CONN_2
+  ( 1 GND )
+  ( 2 VCC )
  )
- ( /525E8707 $noname  RV7 POT {Lib=POT}
-  (    1 N-000010 )
-  (    2 N-000010 )
-  (    3 N-000014 )
+ ( /525E86D0 PIN_ARRAY_4x1 P3 CONN_4
+  ( 1 N-000002 )
+  ( 2 N-000002 )
+  ( 3 N-000029 )
+  ( 4 N-000029 )
  )
- ( /525E86DE $noname  P6 CONN_4 {Lib=CONN_4}
-  (    1 N-000010 )
-  (    2 N-000010 )
-  (    3 GND )
-  (    4 GND )
+ ( /525E8827 PIN_ARRAY_2X1 P4 CONN_2
+  ( 1 N-000002 )
+  ( 2 N-000002 )
  )
- ( /525E86D0 $noname  P3 CONN_4 {Lib=CONN_4}
-  (    1 N-000002 )
-  (    2 N-000002 )
-  (    3 N-000029 )
-  (    4 N-000029 )
+ ( /525E8791 PIN_ARRAY_2X1 P5 CONN_2
+  ( 1 N-000011 )
+  ( 2 N-000010 )
  )
- ( /525E86B0 $noname  R8 R {Lib=R}
-  (    1 N-000008 )
-  (    2 GND )
+ ( /525E86DE PIN_ARRAY_4x1 P6 CONN_4
+  ( 1 N-000010 )
+  ( 2 N-000010 )
+  ( 3 GND )
+  ( 4 GND )
  )
- ( /525E86A6 $noname  R7 R {Lib=R}
-  (    1 N-000012 )
-  (    2 N-000008 )
+ ( /525E8F02 PIN_ARRAY_4x1 P7 CONN_4
+  ( 1 N-000020 )
+  ( 2 N-000004 )
+  ( 3 ? )
+  ( 4 N-000012 )
  )
- ( /525E85DD $noname  U1 40106 {Lib=40106}
-  (    1 N-000017 )
-  (    2 N-000027 )
-  (    3 N-000016 )
-  (    4 N-000025 )
-  (    5 N-000022 )
-  (    6 N-000024 )
-  (    7 GND )
-  (    8 N-000009 )
-  (    9 N-000019 )
-  (   10 N-000020 )
-  (   11 N-000003 )
-  (   12 N-000004 )
-  (   13 N-000006 )
-  (   14 VCC )
+ ( /525E8B89 TO92 Q1 NPN
+  ( 1 GND )
+  ( 2 N-000008 )
+  ( 3 N-000029 )
  )
- ( /525E85DC $noname  RV6 POT {Lib=POT}
-  (    1 N-000005 )
-  (    2 N-000004 )
-  (    3 N-000004 )
+ ( /525E828E R1 R1 R
+  ( 1 N-000018 )
+  ( 2 N-000017 )
  )
- ( /525E85DB $noname  R6 R {Lib=R}
-  (    1 N-000005 )
-  (    2 N-000006 )
+ ( /525E859F R1 R2 R
+  ( 1 N-000015 )
+  ( 2 N-000016 )
  )
- ( /525E85DA $noname  C6 C {Lib=C}
-  (    1 N-000006 )
-  (    2 GND )
+ ( /525E85A8 R1 R3 R
+  ( 1 N-000023 )
+  ( 2 N-000022 )
  )
- ( /525E85D0 $noname  RV5 POT {Lib=POT}
-  (    1 N-000021 )
-  (    2 N-000020 )
-  (    3 N-000020 )
+ ( /525E85BF R1 R4 R
+  ( 1 N-000026 )
+  ( 2 N-000019 )
  )
- ( /525E85CF $noname  R5 R {Lib=R}
-  (    1 N-000021 )
-  (    2 N-000003 )
+ ( /525E85CF R1 R5 R
+  ( 1 N-000021 )
+  ( 2 N-000003 )
  )
- ( /525E85CE $noname  C5 C {Lib=C}
-  (    1 N-000003 )
-  (    2 GND )
+ ( /525E85DB R1 R6 R
+  ( 1 N-000005 )
+  ( 2 N-000006 )
  )
- ( /525E85C0 $noname  RV4 POT {Lib=POT}
-  (    1 N-000026 )
-  (    2 N-000009 )
-  (    3 N-000009 )
+ ( /525E86A6 R3 R7 R
+  ( 1 N-000012 )
+  ( 2 N-000008 )
  )
- ( /525E85BF $noname  R4 R {Lib=R}
-  (    1 N-000026 )
-  (    2 N-000019 )
+ ( /525E86B0 R1 R8 R
+  ( 1 N-000008 )
+  ( 2 GND )
  )
- ( /525E85BE $noname  C4 C {Lib=C}
-  (    1 N-000019 )
-  (    2 GND )
+ ( /525E88DA R1 R9 R
+  ( 1 N-000002 )
+  ( 2 VCC )
  )
- ( /525E85A9 $noname  RV3 POT {Lib=POT}
-  (    1 N-000024 )
-  (    2 N-000024 )
-  (    3 N-000023 )
+ ( /525E827A RV2X2 RV1 POT
+  ( 1 N-000027 )
+  ( 2 N-000027 )
+  ( 3 N-000018 )
  )
- ( /525E85A8 $noname  R3 R {Lib=R}
-  (    1 N-000023 )
-  (    2 N-000022 )
+ ( /525E85A0 RV2X2 RV2 POT
+  ( 1 N-000025 )
+  ( 2 N-000025 )
+  ( 3 N-000015 )
  )
- ( /525E85A7 $noname  C3 C {Lib=C}
-  (    1 N-000022 )
-  (    2 GND )
+ ( /525E85A9 RV2X2 RV3 POT
+  ( 1 N-000024 )
+  ( 2 N-000024 )
+  ( 3 N-000023 )
  )
- ( /525E85A0 $noname  RV2 POT {Lib=POT}
-  (    1 N-000025 )
-  (    2 N-000025 )
-  (    3 N-000015 )
+ ( /525E85C0 RV2X2 RV4 POT
+  ( 1 N-000026 )
+  ( 2 N-000009 )
+  ( 3 N-000009 )
  )
- ( /525E859F $noname  R2 R {Lib=R}
-  (    1 N-000015 )
-  (    2 N-000016 )
+ ( /525E85D0 RV2X2 RV5 POT
+  ( 1 N-000021 )
+  ( 2 N-000020 )
+  ( 3 N-000020 )
  )
- ( /525E859E $noname  C2 C {Lib=C}
-  (    1 N-000016 )
-  (    2 GND )
+ ( /525E85DC RV2X2 RV6 POT
+  ( 1 N-000005 )
+  ( 2 N-000004 )
+  ( 3 N-000004 )
  )
- ( /525E8296 $noname  C1 C {Lib=C}
-  (    1 N-000017 )
-  (    2 GND )
+ ( /525E8707 RV2X2 RV7 POT
+  ( 1 N-000010 )
+  ( 2 N-000010 )
+  ( 3 N-000014 )
  )
- ( /525E828E $noname  R1 R {Lib=R}
-  (    1 N-000018 )
-  (    2 N-000017 )
+ ( /525E8758 RV2X2 RV8 POT
+  ( 1 N-000011 )
+  ( 2 N-000011 )
+  ( 3 N-000010 )
  )
- ( /525E827A $noname  RV1 POT {Lib=POT}
-  (    1 N-000027 )
-  (    2 N-000027 )
-  (    3 N-000018 )
+ ( /525E85DD DIP-14__300 U1 40106
+  ( 1 N-000017 )
+  ( 2 N-000027 )
+  ( 3 N-000016 )
+  ( 4 N-000025 )
+  ( 5 N-000022 )
+  ( 6 N-000024 )
+  ( 7 GND )
+  ( 8 N-000009 )
+  ( 9 N-000019 )
+  ( 10 N-000020 )
+  ( 11 N-000003 )
+  ( 12 N-000004 )
+  ( 13 N-000006 )
+  ( 14 VCC )
  )
 )
 *
 { Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
 $component C7
  CP*
  SM*
-$endlist
-$component R9
- R?
- SM0603
- SM0805
- R?-*
- SM1206
 $endlist
 $component C8
  SM*
@@ -213,14 +236,35 @@ $component D2
  D?
  S*
 $endlist
-$component R8
+$component R1
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R7
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
  R?
  SM0603
  SM0805
@@ -234,65 +278,21 @@ $component R6
  R?-*
  SM1206
 $endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component R5
+$component R7
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component R4
+$component R8
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component R1
+$component R9
  R?
  SM0603
  SM0805
@@ -301,139 +301,3 @@ $component R1
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "GND" "GND"
- C1 2
- C3 2
- C2 2
- Q1 1
- C7 2
- P2 1
- C4 2
- C5 2
- P6 3
- C6 2
- P6 4
- U1 7
- R8 2
-Net 2 "" ""
- P4 1
- D2 2
- P4 2
- R9 1
- P3 1
- P3 2
-Net 3 "" ""
- U1 11
- C5 1
- R5 2
-Net 4 "" ""
- RV6 2
- RV6 3
- P7 2
- U1 12
-Net 5 "" ""
- RV6 1
- R6 1
-Net 6 "" ""
- C6 1
- R6 2
- U1 13
-Net 7 "VCC" "VCC"
- C7 1
- P2 2
- R9 2
- U1 14
-Net 8 "" ""
- C8 2
- Q1 2
- R8 1
- R7 2
-Net 9 "" ""
- RV4 3
- U1 8
- RV4 2
- P1 4
-Net 10 "" ""
- C9 2
- P5 2
- RV8 3
- D1 2
- RV7 1
- P6 2
- P6 1
- RV7 2
-Net 11 "" ""
- P5 1
- RV8 1
- RV8 2
- D2 1
- C9 1
-Net 12 "" ""
- R7 1
- C8 1
- P7 4
-Net 13 "" ""
- D1 1
- K1 3
-Net 14 "" ""
- K1 2
- RV7 3
-Net 15 "" ""
- R2 1
- RV2 3
-Net 16 "" ""
- R2 2
- C2 1
- U1 3
-Net 17 "" ""
- U1 1
- R1 2
- C1 1
-Net 18 "" ""
- RV1 3
- R1 1
-Net 19 "" ""
- U1 9
- R4 2
- C4 1
-Net 20 "" ""
- RV5 2
- P7 1
- RV5 3
- U1 10
-Net 21 "" ""
- RV5 1
- R5 1
-Net 22 "" ""
- U1 5
- C3 1
- R3 2
-Net 23 "" ""
- R3 1
- RV3 3
-Net 24 "" ""
- RV3 2
- P1 3
- RV3 1
- U1 6
-Net 25 "" ""
- P1 2
- U1 4
- RV2 1
- RV2 2
-Net 26 "" ""
- R4 1
- RV4 1
-Net 27 "" ""
- P1 1
- RV1 1
- U1 2
- RV1 2
-Net 29 "" ""
- P3 3
- K1 1
- P3 4
- Q1 3
-}
-#End

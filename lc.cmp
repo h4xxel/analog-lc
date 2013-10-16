@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = ons 16 okt 2013 16:02:19
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Wed 16 Oct 2013 05:09:05 PM CEST
 
 BeginCmp
 TimeStamp = /525E8296;
@@ -207,56 +207,56 @@ BeginCmp
 TimeStamp = /525E827A;
 Reference = RV1;
 ValeurCmp = POT;
-IdModule  = RV2X4;
+IdModule  = RV2X2;
 EndCmp
 
 BeginCmp
 TimeStamp = /525E85A0;
 Reference = RV2;
 ValeurCmp = POT;
-IdModule  = RV2X4;
+IdModule  = RV2X2;
 EndCmp
 
 BeginCmp
 TimeStamp = /525E85A9;
 Reference = RV3;
 ValeurCmp = POT;
-IdModule  = RV2X4;
+IdModule  = RV2X2;
 EndCmp
 
 BeginCmp
 TimeStamp = /525E85C0;
 Reference = RV4;
 ValeurCmp = POT;
-IdModule  = RV2X4;
+IdModule  = RV2X2;
 EndCmp
 
 BeginCmp
 TimeStamp = /525E85D0;
 Reference = RV5;
 ValeurCmp = POT;
-IdModule  = RV2X4;
+IdModule  = RV2X2;
 EndCmp
 
 BeginCmp
 TimeStamp = /525E85DC;
 Reference = RV6;
 ValeurCmp = POT;
-IdModule  = RV2X4;
+IdModule  = RV2X2;
 EndCmp
 
 BeginCmp
 TimeStamp = /525E8707;
 Reference = RV7;
 ValeurCmp = POT;
-IdModule  = RV2X4;
+IdModule  = RV2X2;
 EndCmp
 
 BeginCmp
 TimeStamp = /525E8758;
 Reference = RV8;
 ValeurCmp = POT;
-IdModule  = RV2X4;
+IdModule  = RV2X2;
 EndCmp
 
 BeginCmp
